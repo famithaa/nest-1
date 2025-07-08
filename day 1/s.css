@@ -38,7 +38,7 @@ body{
 
 .box2{
     display:flex;
-    height:500px;
+    height:550px;
     border-style:dashed;
     border-color:rgb(239, 91, 172);
 }
@@ -112,4 +112,74 @@ body{
 }
 .z{
     padding-left: 50px;
+}
+.box3{
+     border-style:dashed;
+    border-color:rgb(239, 91, 172);
+}
+/* Download Button */
+.download-btn {
+    background-color: rgb(236, 45, 150);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: rgb(239, 91, 172);
+}
+
+/* Project Details */
+.project-item {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px dashed rgb(239, 91, 172);
+    border-radius: 10px;
+}
+
+.project-title {
+    color: rgb(236, 45, 150);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-detail {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-detail {
+    background-color: rgb(236, 45, 150);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Soft Skills List */
+.soft-skills {
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+/* Internship Details */
+.internship-detail {
+    margin-top: 5px;
+    font-size: 18px;
+    padding-left: 20px;
 }
